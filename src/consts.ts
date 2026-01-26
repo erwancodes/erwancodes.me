@@ -32,7 +32,7 @@ interface Site {
 // Site configuration
 export const SITE: Site = {
   website: "https://erwancodes.me/",
-  author: "Erwan Sagnardon",
+  author: "Erwan Codes",
   profile: "https://erwancodes.me/about",
   desc: "Étudiant en BTS SIO passionné par la tech, l'IA et l'astronomie. Je crée des projets full-stack innovants et partage mon code sur GitHub.",
   title: "Erwan Sagnardon",
