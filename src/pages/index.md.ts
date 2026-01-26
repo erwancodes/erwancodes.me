@@ -1,26 +1,26 @@
 import type { APIRoute } from "astro";
 
 export const GET: APIRoute = async () => {
-  const markdownContent = `# Peter Steinberger (@steipete)
+  const markdownContent = `# Erwan Sagnardon (@erwancodes)
 
-AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.
+Étudiant en BTS SIO passionné par la tech, l'IA et l'astronomie. Je crée des projets full-stack innovants et partage mon code sur GitHub.
 
 ## Navigation
 
 - [About](/about.md)
 - [Recent Posts](/posts.md)
-- [Archives](/archives.md)
 - [RSS Feed](/rss.xml)
 
 ## Links
 
-- Twitter: [@steipete](https://twitter.com/steipete)
-- GitHub: [@steipete](https://github.com/steipete)
-- Email: steipete@gmail.com
+- GitHub: [@ErwanExplorer](https://github.com/ErwanExplorer)
+- Instagram: [@erwan.code](https://instagram.com/erwan.code)
+- LinkedIn: [Erwan Sagnardon](https://www.linkedin.com/in/erwan-sagnardon/)
+- Email: erwan.sagnardon@campus-la-chataigneraie.org
 
 ---
 
-*This is the markdown-only version of steipete.me. Visit [steipete.me](https://steipete.me) for the full experience.*`;
+*This is the markdown-only version of erwancodes.me. Visit [www.erwancodes.me](https://www.erwancodes.me) for the full experience.*`;
 
   return new Response(markdownContent, {
     status: 200,
