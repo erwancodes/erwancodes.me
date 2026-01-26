@@ -31,12 +31,12 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://steipete.me/",
-  author: "Peter Steinberger",
-  profile: "https://steipete.me/about",
-  desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "Peter Steinberger",
-  ogImage: "peter-avatar.jpg",
+  website: "https://erwancodes.me/",
+  author: "Erwan Sagnardon",
+  profile: "https://erwancodes.me/about",
+  desc: "Étudiant en BTS SIO passionné par la tech, l'IA et l'astronomie. Je crée des projets full-stack innovants et partage mon code sur GitHub.",
+  title: "Erwan Sagnardon",
+  ogImage: "erwan-avatar.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -46,11 +46,11 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/steipete/steipete.me/edit/main/",
+    url: "https://github.com/ErwanExplorer/erwancodes.me/edit/main/",
   },
   dynamicOgImage: true,
-  lang: "en",
-  timezone: "America/Los_Angeles",
+  lang: "fr",
+  timezone: "Europe/Paris",
 };
 
 export const SITE_TITLE = SITE.title;
@@ -71,16 +71,16 @@ export const NAV_LINKS: SocialLink[] = [
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/steipete",
+    href: "https://github.com/ErwanExplorer",
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/steipete",
-    label: "Twitter",
+    href: "https://instagram.com/erwan.code",
+    label: "Instagram",
   },
   {
-    href: "https://bsky.app/profile/steipete.me",
-    label: "BlueSky",
+    href: "https://www.linkedin.com/in/erwan-sagnardon/",
+    label: "LinkedIn",
   },
   {
     href: "/rss.xml",
