@@ -31,9 +31,9 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://www.erwancodes.me/",
+  website: "https://blog.erwancodes.me",
   author: "Erwan Codes",
-  profile: "https://www.erwancodes.me/about",
+  profile: "https://blog.erwancodes.me/about",
   desc: "Étudiant en BTS SIO passionné par la tech, l'IA et l'astronomie. Je crée des projets full-stack innovants et partage mon code sur GitHub.",
   title: "Erwan Sagnardon",
   ogImage: "erwan-avatar.jpg",
