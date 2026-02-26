@@ -17,7 +17,7 @@ if (type === "BlogPosting") {
     author: {
       "@type": "Person",
       name: data.author || "Erwan Sagnardon",
-      url: "https://www.erwancodes.me/about",
+      url: "https://blog.erwancodes.me/about",
     },
     datePublished: data.pubDatetime.toISOString(),
     dateModified: data.modDatetime?.toISOString() || data.pubDatetime.toISOString(),
@@ -26,14 +26,14 @@ if (type === "BlogPosting") {
       name: "Erwan Sagnardon",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.erwancodes.me/erwan-avatar.jpg",
+        url: "https://blog.erwancodes.me/erwan-avatar.jpg",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": data.url,
     },
-    image: data.ogImage || "https://www.erwancodes.me/erwan-avatar.jpg",
+    image: data.ogImage || "https://blog.erwancodes.me/erwan-avatar.jpg",
     articleSection: data.tags?.[0] || "Technology",
     keywords: data.tags?.join(", ") || "",
     wordCount: data.wordCount,
@@ -44,10 +44,10 @@ if (type === "BlogPosting") {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Erwan Sagnardon",
-    url: "https://www.erwancodes.me",
-    image: "https://www.erwancodes.me/erwan-avatar.jpg",
+    url: "https://blog.erwancodes.me",
+    image: "https://blog.erwancodes.me/erwan-avatar.jpg",
     sameAs: [
-      "https://github.com/ErwanExplorer",
+      "https://github.com/erwancodes",
       "https://instagram.com/erwan.code",
       "https://www.linkedin.com/in/erwan-sagnardon/",
     ],
@@ -60,7 +60,7 @@ if (type === "BlogPosting") {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Erwan Sagnardon",
-    url: "https://www.erwancodes.me",
+    url: "https://blog.erwancodes.me",
     description:
       "Étudiant en BTS SIO passionné par la tech, l'IA et l'astronomie. Je crée des projets full-stack innovants et partage mon code sur GitHub.",
     author: {
@@ -69,7 +69,7 @@ if (type === "BlogPosting") {
     },
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://www.erwancodes.me/search?q={search_term_string}",
+      target: "https://blog.erwancodes.me/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };

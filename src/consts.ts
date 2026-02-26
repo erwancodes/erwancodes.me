@@ -46,7 +46,7 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/ErwanExplorer/erwancodes.me/edit/main/",
+    url: "https://github.com/erwancodes/erwancodes.me/edit/main/",
   },
   dynamicOgImage: true,
   lang: "fr",
@@ -71,7 +71,7 @@ export const NAV_LINKS: SocialLink[] = [
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/ErwanExplorer",
+    href: "https://github.com/erwancodes",
     label: "GitHub",
   },
   {

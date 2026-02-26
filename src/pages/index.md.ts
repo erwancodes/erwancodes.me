@@ -13,14 +13,14 @@ export const GET: APIRoute = async () => {
 
 ## Links
 
-- GitHub: [@ErwanExplorer](https://github.com/ErwanExplorer)
+- GitHub: [@erwancodes](https://github.com/erwancodes)
 - Instagram: [@erwan.code](https://instagram.com/erwan.code)
 - LinkedIn: [Erwan Sagnardon](https://www.linkedin.com/in/erwan-sagnardon/)
 - Email: erwan.sagnardon@campus-la-chataigneraie.org
 
 ---
 
-*This is the markdown-only version of erwancodes.me. Visit [www.erwancodes.me](https://www.erwancodes.me) for the full experience.*`;
+*This is the markdown-only version of erwancodes.me. Visit [blog.erwancodes.me](https://blog.erwancodes.me) for the full experience.*`;
 
   return new Response(markdownContent, {
     status: 200,
